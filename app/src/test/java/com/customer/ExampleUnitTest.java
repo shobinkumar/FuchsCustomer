@@ -1,4 +1,4 @@
-package com.fuchs;
+package com.customer;
 
 import org.junit.Test;
 

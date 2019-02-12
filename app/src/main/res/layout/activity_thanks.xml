@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDashboardBackground"
+    android:orientation="vertical">
+    <include
+        layout="@layout/toolbar_payment"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:layout_margin="15dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/icon_tick" />
+        <TextView
+            android:id="@+id/txtThanks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:text="Thank you for your order!"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/_20sdp"/>
+        <TextView
+            android:id="@+id/txtOrderNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="Your order number is XXXXX."
+            android:textSize="@dimen/_16sdp"/>
+        <TextView
+            android:id="@+id/txtConfirmation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:text="received to follow."
+            android:textSize="@dimen/_16sdp"/>
+        <TextView
+            android:id="@+id/tvBackToHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:layout_gravity="center"
+            android:text=" Back to home "
+            android:textColor="@color/blue"
+            android:textSize="@dimen/_16sdp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

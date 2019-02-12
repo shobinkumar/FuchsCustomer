@@ -1,3 +1,53 @@
 <resources>
     <string name="app_name">Fuchs</string>
+    <string name="welcome_back">Welcome Back,</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="sign_in_to_continue">Sign In to continue</string>
+    <string name="txt_orders">Orders</string>
+    <string name="txt_dashboard">Dashboard</string>
+    <string name="txt_claims">Claims</string>
+    <string name="txt_attendence">Attendence</string>
+    <string name="txt_analysis_report">Analysis Report</string>
+    <string name="txt_logout">Logout</string>
+    <string name="txt_refresh">Refresh</string>
+    <string-array name="order_type">
+        <item>Standard Order</item>
+        <item>Free-of-charge Order</item>
+        <item>Consignment Order</item>
+
+    </string-array>
+    <string-array name="product_type">array_product>
+
+        <item>Cars Engine Oil</item>
+        <item>Industrial Lubricants</item>
+        <item>Truck &amp; BusLubricants</item>
+
+    </string-array>
+    <string-array name="array_sold">array_product>
+
+        <item>Allison Transmission</item>
+        <item>Indianapolis Power &amp; Light</item>
+        <item>Zimmer Holdings</item>
+
+    </string-array>
+
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="city">City</string>
+    <string name="region">Region</string>
+    <string name="same_as_customer_address">Same As Customer Address</string>
+    <string name="shipping_address">Shipping Address</string>
+    <string name="street_number">Street Number</string>
+    <string name="postal_code">Postal Code</string>
+    <string name="country">Country</string>
+    <string name="sold_to_party">Sold To Party</string>
+    <string name="select_name">Select Name</string>
+    <string name="or">Or</string>
+    <string name="id">ID</string>
+    <string name="paypal">Paypal</string>
+    <string name="txt_ClaimDate">Claim Date</string>
+    <string name="description"><![CDATA[Good thermal stability protects against deposit formation and oil thickening maintaining the life and performance of lubricant & transmission Good anti-wear & load carrying characteristics to extend the life of components Gives better performance over wide temperature range Provides greater wear protection and durability compared to Monograde fluids]]></string>
 </resources>

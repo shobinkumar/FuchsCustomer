@@ -81,7 +81,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
-                android:text="Today Offers"
+                android:text="Today's Offers"
                 android:textColor="@color/colorDrawerUnSelectedColor"
                 android:textSize="16sp" />
 

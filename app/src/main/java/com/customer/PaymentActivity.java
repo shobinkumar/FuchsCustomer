@@ -23,6 +23,8 @@ public class PaymentActivity extends AppCompatActivity {
     @BindView(R.id.ll3)
     View ll3;
 
+    @BindView(R.id.ivDrawer)
+    ImageView ivDrawer;
 
     ImageView iv;
 
@@ -88,7 +90,10 @@ public class PaymentActivity extends AppCompatActivity {
         radioButton3.setChecked(b2);
         radioButton4.setChecked(b3);
     }
-
+@OnClick(R.id.ivDrawer)
+public void clickToImage(View view){
+    startActivity(new Intent(PaymentActivity.this, ProductDetailActivity.class));
+}
 
     @OnClick({R.id.ll, R.id.ll1, R.id.ll2, R.id.ll3})
     public void onClick(View view) {
